@@ -1,0 +1,43 @@
+.shoe1 h4{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 22px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.shoe2{
+  margin-left: 1px;
+}
+.running{
+  background-image: url('../images/running.jpg');
+  height: 100vh;
+  width: 49%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.running h3{
+  text-align: center;
+  margin-top: 320px;
+  color: white;
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.casual{
+  background-image: url('../images/casual.jpg');
+  height: 100vh;
+  width: 49%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.casual h3{
+  text-align: center;
+  margin-top: 320px;
+  color: white;
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.shoe3{
+  margin-top: -180px;
+  margin-left: 10px;
+  margin-right: 30px;
+}

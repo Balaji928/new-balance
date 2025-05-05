@@ -1,0 +1,122 @@
+/* .upload6{
+  padding-top: 100px;
+}
+.upload5 h2{
+  border-radius: 7px;
+  border: 0px solid;
+  background-color: rgb(238, 233, 233);
+  width: 40%;
+  font-size: 20px;
+  margin-left: 450px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: -50px;
+}
+.upload0 input{
+  border: 1px solid;
+}
+.form-floating{
+  margin-bottom: -50px;
+}
+.form-floating input{
+  margin-left: 600px;
+  width: 22%;
+}
+.form-floating label{
+  text-align: start;
+  margin-left: 500px;
+  padding-left: 140px;
+}
+.upload7{
+  margin-top: 70px;
+}
+.upload7 .btn {
+  font-size: medium;
+}
+.upload7 .btn {
+  width: 22%;
+  font-size: 14px;
+  margin-left: 60px;
+  font-weight: 600;
+  background-color: rgb(243, 58, 58);
+  color: white;
+  border-radius: 0px;
+}
+.upload7 .btn:hover{
+  background-color: rgb(201, 28, 28);
+  color: white;
+  transform: scale(1.0);
+} */
+
+/* Upload.css */
+
+/* body {
+  background: #fdfaf6;
+  font-family: 'Poppins', sans-serif;
+} */
+.up{
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-image: url("../images/winter.jpg");
+  height: 150vh;
+}
+.upload6 {
+  max-width: 480px;
+  margin-left: 500px;
+  margin-top: 100px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.1);
+}
+.upload5  h2 {
+  text-align: center;
+  background-color: #f3eded;
+  font-weight: 600;
+  color: #222;
+  border-radius: 12px;
+  margin-bottom: -30px;
+}
+
+.form-floating {
+  position: relative;
+  margin-bottom: -40px;
+}
+
+/* .form-control {
+  height: 56px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 12px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #ff4d4d;
+  box-shadow: 0 0 0 2px rgba(255, 77, 77, 0.2);
+} */
+
+label {
+  padding-left: 12px;
+  color: #999;
+  font-size: 13px;
+}
+
+.upload7 {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+
+.upload7 .btn {
+  width: 100%;
+  background: linear-gradient(135deg, #ff4d4d, #ff1a1a);
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.upload7 .btn:hover {
+  background: linear-gradient(135deg, #e60000, #cc0000);
+}

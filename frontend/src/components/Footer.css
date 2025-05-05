@@ -1,0 +1,99 @@
+.f1{
+  background-color: black;
+}
+.f1 p{
+  margin-top: 40px;
+  margin-left: 400px;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 50px;
+}
+.f2{
+  background-color: black;
+}
+.f2 button{
+  margin-left: -600px;
+  margin-top: 30px;
+  padding: 15px 50px;
+  border-radius: 5px;
+  background-color: rgb(201, 28, 28);
+  border: 0px solid red;
+  font-weight: 700;
+  color: white;
+}
+.f2 button:hover{
+  background-color: rgb(177, 37, 37);
+}
+.f3{
+  text-align: start;
+  margin-left: 7px;
+}
+.f3-1 h5{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.f3-1 p{
+  font-weight: 600;
+}
+.f3-1 p:hover{
+  text-decoration: underline;
+}
+.f3-2 h5{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.f3-2 p{
+  font-weight: 600;
+}
+.f3-2 p:hover{
+  text-decoration: underline;
+}
+.f3-3 h5{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.f3-3 p{
+  font-weight: 600;
+}
+.f3-3 p:hover{
+  text-decoration: underline;
+}
+.f3-4 h5{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.f3-4 p{
+  font-weight: 600;
+}
+.f3-4 p:hover{
+  text-decoration: underline;
+}
+.f4 h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+}
+.f4 p{
+  font-size: 20px;
+}
+.f4 img{
+  width: 25%;
+  margin-left: -20px;
+}
+.f5{
+  margin-left: -30px;
+}
+.f5 li{
+  display: inline;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.f5 li:hover{
+  color: darkgray;
+}
+.f6 li{
+  display: inline;
+}
+.f6 li img{
+  width: 15%;
+  padding-left: 40px;
+}

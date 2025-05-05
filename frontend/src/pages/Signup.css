@@ -1,0 +1,38 @@
+
+.tab-active {
+  font-weight: 600;
+  border-bottom: 2px solid black;
+}
+.shadow-sm{
+  max-width: 400px;
+  width: 100%;
+  padding-top: 140px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+.sm1{
+  background-color: rgb(231, 227, 227);
+  border-radius: 4px;
+}
+
+.btn5 {
+  width: 100%;
+  font-size: 14px;
+  box-shadow: none;
+  border: 0px;
+  font-weight: bold;
+  background-color: rgb(182, 11, 11);
+  color: white;
+  border-radius: 5px;
+}
+.btn5:hover{
+  background-color: rgb(201, 28, 28);
+  color: white;
+  transform: scale(1.0);
+}
+.fc{
+  margin-top: -1px;
+}
+.form-check-label{
+  margin-left: -240px;
+}

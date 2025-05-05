@@ -1,0 +1,152 @@
+.m1 h4{
+  padding-top: 40px;
+  padding-left: 14px;
+}
+.m2{
+  margin-left: 2px;
+}
+.m2 a{
+  text-decoration: none;
+}
+.life{
+  margin-top: 50px;
+  background-image: url('../images/lifestyle.jpg');
+  height: 100vh;
+  width: 33%;
+  gap: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.life h3{
+  text-align: center;
+  margin-top: 140px;
+  color: white;
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.win{
+  margin-top: 50px;
+  background-image: url('../images/winter.jpg');
+  height: 100vh;
+  width: 33%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.win h3{
+  text-align: center;
+  margin-top: 140px;
+  color: white;
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.acess{
+  margin-top: 50px;
+  background-image: url('../images/acessories.jpg');
+  height: 100vh;
+  width: 33%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.acess h3{
+  text-align: center;
+  margin-top: 140px;
+  color: white;
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.m3{
+  margin-top: -350px;
+  margin-bottom: 30px;
+}
+.m3-1 button{
+  border: 2px solid lightgrey;
+  margin-left: -560px;
+  border-radius: 4px;
+  font-weight: bold;
+  background-color: white;
+}
+.m3-2 button{
+  border: 2px solid lightgrey;
+  margin-right: -620px;
+  font-weight: bold;
+  background-color: white;
+}
+.m4{
+  margin-left: 10px;
+}
+.m5{
+  margin-left: 650px;
+}
+.m5 button{
+  border-radius: 5px;
+  width: 20%;
+  border:2px solid red;
+  background-color: white;
+  color: red;
+  font-weight: 500;
+}
+.m5 button:hover{
+  /* transform: scale(1.1); */
+  border: 4px solid rgb(243, 58, 58);
+}
+.btn {
+  font-size: medium;
+}
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: lightgrey;
+  color: black;
+  border-radius: 0px;
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+  transform: scale(1.0);
+}
+.btn-1 {
+  font-size: medium;
+}
+.btn-1 {
+  margin-top: 10px;
+  font-size: 14px;
+  width: 100%;
+  background-color: lightgrey;
+  color: black;
+}
+.btn-1 :hover{
+  background-color: black;
+  color: white;
+  transform: scale(1.0);
+}
+.hover-image {
+  width: 300px;
+  height: auto;
+}
+
+.hover-image img {
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.hover-image .hover {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+
+.hover-image:hover .hover {
+  opacity: 1;
+}
+
+.hover-image:hover .default {
+  opacity: 0;
+}
+
+.hover-image {
+  position: relative;
+  display: inline-block;
+}
