@@ -1,0 +1,154 @@
+/* .form1{
+  text-align: start;
+  padding-top: 100px;
+  margin-left: 100px;
+}
+.form1 input{
+  text-align: start;
+}
+.form2{
+  text-align: start;
+  margin-left: 100px;
+
+}
+.form2 input{
+  text-align: start;
+  margin-left: 900px;
+
+}
+.form3{
+  text-align: start;
+  margin-left: 100px;
+
+}
+.form3 input{
+  text-align: start;
+}
+.ms-3{
+  text-align: center;
+  margin-left: 100px;
+} */
+ /* .form-box {
+  width: 100%;
+  max-width: 400px;
+  text-align: start;
+  gap: 100px;
+}
+
+.form-wrapper {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  margin-bottom: -50PX;
+} */
+
+.whole {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+}
+
+.form-container {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  box-shadow: 0px 0px 30px 30px #413f3f;
+}
+
+.form-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+.input-group1 {
+  position: relative;
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+
+.input-group1 input {
+  width: 100%;
+  padding: 12px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: none;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.input-group1 label {
+  position: absolute;
+  top: 34px;
+  left: 15px;
+  background: #fff;
+  padding: 0 5px;
+  color: #aaa;
+  font-size: 14px;
+  pointer-events: none;
+  transition: 0.2s ease all;
+}
+
+.input-group1 input:focus {
+  border-color: #7e57c2;
+}
+
+.input-group1 input:focus + label,
+.input-group1 input:not(:placeholder-shown) + label {
+  top: -10px;
+  font-size: 12px;
+  color: #7e57c2;
+}
+
+.error-text {
+  color: #e53935;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit-btn {
+  margin-left: 15px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: rgb(201, 28, 28);
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: rgb(177, 37, 37);
+}
+.submit-btn1 {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: rgb(201, 28, 28);
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn1:hover {
+  background: rgb(177, 37, 37);
+}

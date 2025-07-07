@@ -29,7 +29,7 @@ const Shoes = [
       title:"New",
       subtitle:"Made in USA 990v6",
       gender:"Unisex",
-      price:199.99,
+      price:199,
       button:"Add To Cart",
       quantity:1
     },
@@ -39,7 +39,7 @@ const Shoes = [
       title:"New",
       subtitle:"Made in USA 990v6",
       gender:"Unisex",
-      price:199.99,
+      price:199,
       button:"Add To Cart",
       quantity:1
     },
@@ -49,7 +49,7 @@ const Shoes = [
       title:"New",
       subtitle:"Made in USA 990v6",
       gender:"Unisex",
-      price:199.99,
+      price:199,
       button:"Add To Cart",
       quantity:1
     },
@@ -59,7 +59,7 @@ const Shoes = [
       title:"New",
       subtitle:"Made in USA 990v6",
       gender:"Unisex",
-      price:199.99,
+      price:199,
       button:"Add To Cart",
       quantity:1
     },
@@ -69,7 +69,7 @@ const Shoes = [
       title:"New",
       subtitle:"Made in USA 990v6",
       gender:"Unisex",
-      price:199.99,
+      price:199,
       button:"Add To Cart",
       quantity:1
     },
@@ -79,7 +79,7 @@ const Shoes = [
       title:"New",
       subtitle:"Made in USA 990v6",
       gender:"Unisex",
-      price:199.99,
+      price:199,
       button:"Add To Cart",
       quantity:1
     },
@@ -89,7 +89,7 @@ const Shoes = [
       title:"New",
       subtitle:"Made in USA 990v6",
       gender:"Unisex",
-      price:199.99,
+      price:199,
       button:"Add To Cart",
       quantity:1
     },
@@ -99,7 +99,7 @@ const Shoes = [
       title:"New",
       subtitle:"Made in USA 990v6",
       gender:"Unisex",
-      price:199.99,
+      price:199,
       button:"Add To Cart",
       quantity:1
     },
@@ -109,7 +109,7 @@ const Shoes = [
       title:"New",
       subtitle:"Made in USA 990v6",
       gender:"Unisex",
-      price:199.99,
+      price:199,
       button:"Add To Cart",
       quantity:1
     },
@@ -119,7 +119,7 @@ const Shoes = [
       title:"New",
       subtitle:"Made in USA 990v6",
       gender:"Unisex",
-      price:199.99,
+      price:199,
       button:"Add To Cart",
       quantity:1
     },
@@ -129,7 +129,7 @@ const Shoes = [
       title:"New",
       subtitle:"550",
       gender:"Unisex Lifestyle",
-      price:109.99,
+      price:109,
       button:"Add To Cart",
       quantity:1
     },
@@ -139,7 +139,7 @@ const Shoes = [
       title:"New",
       subtitle:"Fresh Foam Trainer",
       gender:"Unisex Lifestyle",
-      price:129.99,
+      price:129,
       button:"Add To Cart",
       quantity:1
     }
@@ -150,7 +150,7 @@ const Shoes = [
       // title:"New",
       subtitle:"NB Numeric 480",
       gender:"Unisex Skateboarding",
-      price:99.99,
+      price:99,
       button:"Add To Cart",
       quantity:1
     },
@@ -160,7 +160,7 @@ const Shoes = [
       // title:"New",
       subtitle:"1000",
       gender:"Unisex Lifestyle",
-      price:149.99,
+      price:149,
       button:"Add To Cart",
       quantity:1
     },
@@ -170,7 +170,7 @@ const Shoes = [
       // title:"New",
       subtitle:"Fresh Foam Trainer",
       gender:"Unisex Lifestyle",
-      price:129.99,
+      price:129,
       button:"Add To Cart",
       quantity:1
     },
@@ -180,7 +180,7 @@ const Shoes = [
       title:"New",
       subtitle:"NB Numeric Franky Villani 417",
       gender:"Unisex Skateboarding",
-      price:89.99,
+      price:89,
       button:"Add To Cart",
       quantity:1
     },
@@ -190,7 +190,7 @@ const Shoes = [
       // title:"New",
       subtitle:"CSP x Minimus TR v2",
       gender:"UnisMen's Trainingex",
-      price:119.99,
+      price:119,
       button:"Add To Cart",
       quantity:1
     },
@@ -200,7 +200,7 @@ const Shoes = [
       // title:"New",
       subtitle:"CSP x Minimus TR v2",
       gender:"UnisMen's Trainingex",
-      price:119.99,
+      price:119,
       button:"Add To Cart",
       quantity:1
     },
@@ -210,7 +210,7 @@ const Shoes = [
       // title:"New",
       subtitle:"CSP x Minimus TR v2",
       gender:"UnisMen's Trainingex",
-      price:119.99,
+      price:119,
       button:"Add To Cart",
       quantity:1
     },
@@ -220,7 +220,7 @@ const Shoes = [
       // title:"New",
       subtitle:"CSP x Minimus TR v2",
       gender:"UnisMen's Trainingex",
-      price:119.99,
+      price:119,
       button:"Add To Cart",
       quantity:1
     },
@@ -230,7 +230,7 @@ const Shoes = [
       // title:"New",
       subtitle:"CSP x Minimus TR v2",
       gender:"UnisMen's Trainingex",
-      price:119.99,
+      price:119,
       button:"Add To Cart",
       quantity:1
     },
@@ -240,7 +240,7 @@ const Shoes = [
       // title:"New",
       subtitle:"CSP x Minimus TR v2",
       gender:"UnisMen's Trainingex",
-      price:119.99,
+      price:119,
       button:"Add To Cart",
       quantity:1
     }

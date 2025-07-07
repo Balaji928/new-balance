@@ -12,7 +12,7 @@ const Matchingsets = [
         title:"New",
         subtitle:"Made in USA 990v6",
         gender:"Unisex",
-        price:199.99,
+        price:199,
         button:"Add To Cart",
         quantity:1
       },
@@ -22,7 +22,7 @@ const Matchingsets = [
         title:"New",
         subtitle:"Made in USA 990v6",
         gender:"Unisex",
-        price:199.99,
+        price:199,
         button:"Add To Cart",
         quantity:1
       },
@@ -32,7 +32,7 @@ const Matchingsets = [
         title:"New",
         subtitle:"Made in USA 990v6",
         gender:"Unisex",
-        price:199.99,
+        price:199,
         button:"Add To Cart",
         quantity:1
       },
@@ -42,7 +42,7 @@ const Matchingsets = [
         title:"New",
         subtitle:"Made in USA 990v6",
         gender:"Unisex",
-        price:199.99,
+        price:199,
         button:"Add To Cart",
         quantity:1
       },
@@ -52,7 +52,7 @@ const Matchingsets = [
         title:"New",
         subtitle:"Made in USA 990v6",
         gender:"Unisex",
-        price:199.99,
+        price:199,
         button:"Add To Cart",
         quantity:1
       },

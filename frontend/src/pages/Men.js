@@ -22,7 +22,6 @@ const Men = () => {
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item active" aria-current="page">Men</li>
-
           </ol>
         </nav>
       </section>
@@ -35,21 +34,21 @@ const Men = () => {
         </div>
       </section>
 
-      <section class="container-fluid">
+      <section class="container-fluid col-lg-12 col-sm-12 col-md-12">
         <div class="row m2 gap-1">
-        <Link to='/shoe'  class="col-lg-4 life">
+        <Link to='/shoe'  class="col-lg-4 col-sm-4 col-md-4 life">
           <div >
             <h3>Shoes</h3>
           </div>
         </Link>
 
-        <Link to='/t-shirts'  class="col-lg-4 win">
+        <Link to='/t-shirts'  class="col-lg-4 col-sm-4 col-md-4 win">
           <div >
           <h3>Clothing</h3>
           </div>
         </Link>
 
-        <Link to='/accessories'  class="col-lg-4 acess">
+        <Link to='/accessories'  class="col-lg-4 col-sm-4 col-md-4 acess">
           <div >
           <h3>Accessories</h3>
           </div>
@@ -72,7 +71,7 @@ const Men = () => {
       <section>
         <div class="row m4 mb-5 me-2">
           {Mens.map((item)=>
-          <div class="col-lg-4 mb-5">
+          <div class="col-lg-4 col-md-4 col-sm-4  mb-5">
             <div class="card" key={item.id}>
               <img src={item.img} class="card-img-top" alt="..."/>
               {/* <div class="hover-image">
@@ -90,8 +89,8 @@ const Men = () => {
                 <p class="card-subtitle mb-2 ">{item.gender}</p>
                 <h4 class="card-subtitle ">${item.price}</h4>
                 {cartProducts.find((items) => items.id === item.id) ? (
-                    <button class="btn py-2" onClick={() => deleteCart(item)}>Remove From Bag</button>):(
-                      <button class=" btn py-2" onClick={() => addCart(item)}>Add To Bag</button>
+                    <button class="btn py-3" onClick={() => deleteCart(item)}>Remove From Bag</button>):(
+                      <button class=" btn py-3" onClick={() => addCart(item)}>Add To Bag</button>
                     )}
               </div>
             </div>

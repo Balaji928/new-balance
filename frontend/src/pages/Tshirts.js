@@ -79,8 +79,8 @@ const Tshirts = () => {
                 <p class="card-subtitle mb-2 ">{item.gender}</p>
                 <h4 class="card-subtitle ">${item.price}</h4>
                 {cartProducts.find((items) => items.id === item.id) ? (
-                    <button class="btn py-2" onClick={() => deleteCart(item)}>Remove From Bag</button>):(
-                      <button class=" btn py-2" onClick={() => addCart(item)}>Add To Bag</button>
+                    <button class="btn py-3" onClick={() => deleteCart(item)}>Remove From Bag</button>):(
+                      <button class=" btn py-3" onClick={() => addCart(item)}>Add To Bag</button>
                     )}
               </div>
             </div>

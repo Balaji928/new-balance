@@ -18,7 +18,7 @@ const Edit = () => {
   })
 
   useEffect(()=>{
-   fetch(`http://localhost:6005/snsbyid/${id}`)
+   fetch(`http://localhost:6005 /snsbyid/${id}`)
      .then((res)=>res.json())
      .then((data)=>setproductsItems(data))
     },[])
@@ -84,55 +84,6 @@ const Edit = () => {
           </div>
       </div>
    </div>
-  // <div class="up">
-  //       <ToastContainer/>
-  //         <div class="card update6">
-  //           <div class="card-body update5">
-  //             <form onSubmit={handleUpdate} >
-  //                 <h2 class="py-3">Upload Page</h2>
-
-  //                 <div class="update0">
-  //                   <div class="form-floating ">
-  //                     <input type="text" class="form-control" id="floatingInput" name="title"/>
-  //                     <label  value="title">Title</label>
-  //                   </div>
-  //                 </div>
-
-  //                 <div class="update1">
-  //                   <div class="form-floating ">
-  //                     <input type="text" class="form-control" id="floatingInput" name="img"/>
-  //                     <label value="img">Image</label>
-  //                   </div>
-  //                 </div>
-
-  //                     <div class="update2">
-  //                       <div class="form-floating">
-  //                         <input type="text" class="form-control" id="floatingInput" name="food"/>
-  //                         <label  value="food" class="">Collection</label>
-  //                       </div>
-  //                     </div>
-
-  //                     <div class="update3">
-  //                       <div class="form-floating">
-  //                         <input type="text" class="form-control" id="floatingInput" name='des'/>
-  //                         <label value="des">Des</label>
-  //                       </div>
-  //                     </div>
-
-  //                     <div class="update4">
-  //                       <div class="form-floating ">
-  //                         <input type="number" class="form-control" id="floatingInput" name='price'/>
-  //                         <label value="price">Price</label>
-  //                       </div>
-  //                 </div>
-
-  //                 <div class="update4">
-  //                     <button type="submit" class="btn py-3">Upload</button>
-  //                 </div>
-  //             </form>
-  //         </div>
-  //       </div>
-  //   </div>
   )
 }
 

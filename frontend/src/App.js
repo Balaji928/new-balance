@@ -21,6 +21,12 @@ import Signup from './pages/Signup';
 import Upload from './pages/Upload';
 import Delete from './pages/Delete';
 import Edit from './pages/Edit';
+import Editbags from './pages/Editbags';
+import Uploadbags from './pages/Uploadbags';
+import Deletebags from './pages/Deletebags';
+import Form from './pages/Form';
+import Register from './pages/Register';
+import Login from './pages/Login';
 
 
 function App() {
@@ -48,6 +54,12 @@ function App() {
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/delete' element={<Delete/>}/>
         <Route path='/edit/:id' element={<Edit/>}/>
+        <Route path='/editbags/:id' element={<Editbags/>}/>
+        <Route path='/uploadbags' element={<Uploadbags/>}/>
+        <Route path='/deletebags' element={<Deletebags/>}/>
+        <Route path='/form' element={<Form/>}/>
+        <Route path='/register' element={<Register/>}/>
+        <Route path='/login' element={<Login/>}/>
       </Routes>
       <Footer/>
       </BrowserRouter>

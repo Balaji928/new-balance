@@ -39,6 +39,7 @@ const Upload = () => {
     }
   }
   return (
+    <div class="ub">
     <div class="up">
       <ToastContainer/>
         <div class="card upload6">
@@ -86,6 +87,7 @@ const Upload = () => {
                 </div>
             </form>
         </div>
+      </div>
       </div>
   </div>
   )

@@ -1,4 +1,6 @@
 const express = require('express');
+const jwt=require('jsonwebtoken');
+const bcrypt=require('bcryptjs');
 const cors = require ('cors');
 
 const app = express();
@@ -11,6 +13,40 @@ app.get("/", (req, res) => {
   res.send("welcome to the MERN CRUD API")
 })
 
+const users = [];
+
+const secretkey = 'your-secret-key';
+
+app.post('/register', async (req,res) =>{
+  const {username,password} = req.body;
+  console.log("hi".username)
+  const hasedPassword = await bcrypt.hash(password,10);
+  users.push({username,password : hasedPassword});
+  res.sendStatus(201);
+  console.log("User Registered Successfully")
+})
+
+app.post('/login' , async(req,res) => {
+  const {username,password} = req.body;
+  const user =users.find((us) => us.username === username)
+  console.log("hi".username)
+
+  if(user){
+    const isValiduser = await bcrypt.compare(password,user.password,);
+
+    if(isValiduser){
+      const token = await jwt.sign({username},secretkey,{expiresIn : '1hr'})
+      res.json({token});
+      console.log("login successfully");
+    }
+    else{
+      res.status(401).json({message : 'Invalid Credential,since Password Does not match'})
+    }
+  }
+  else{
+    res.status(401).json({message : 'Invalid Credential,since User Not Found,SignUp to Login plz'})
+  }
+})
 
 const { MongoClient, ServerApiVersion,ObjectId } = require('mongodb');
 const uri = "mongodb+srv://balajishanmugam018:balaji2124@cluster0.2njpbvm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
@@ -53,6 +89,7 @@ async function run() {
     app.patch("/allproductsnacks/:id",async(req,res)=>{
 
       const id=req.params.id;
+      console.log(id)
       const updateFooddata=req.body;
       const filter={_id:new ObjectId(id)};
 
@@ -72,6 +109,52 @@ async function run() {
       console.log(id)
       const filter={_id:new ObjectId(id)};
       const result=await burgers.deleteOne(filter);
+      res.status(200).json({success:true , message:"data deleted successfully", result});
+    })
+
+    const bag=client.db("newbalance").collection("bags");
+
+    app.post("/uploadbags",async(req,res)=>{
+      const data=req.body;
+      const result=await bag.insertOne(data);
+      res.send(result);
+    })
+
+    app.get("/snsbags",async(req,res)=>{
+      const foods=bag.find();
+      const result=await foods.toArray();
+      res.send(result);
+    })
+
+    app.get("/snsbybags/:id",async(req,res)=>{
+      const id=req.params.id;
+      const filter={_id:new ObjectId(id)};
+      const result=await bag.findOne(filter);
+      res.send(result);
+    })
+
+    app.patch("/allproductbags/:id",async(req,res)=>{
+
+      const id=req.params.id;
+      const updateFooddata=req.body;
+      const filter={_id:new ObjectId(id)};
+
+      const updateDoc={
+        $set:{
+          ...updateFooddata
+        },
+      }
+
+      const options ={upsert:true};
+      const result=await bag.updateOne(filter,updateDoc,options);
+      res.send(result);
+    })
+
+    app.delete('/deletebags/:id',async(req,res)=>{
+      const id=req.params.id;
+      console.log(id)
+      const filter={_id:new ObjectId(id)};
+      const result=await bag.deleteOne(filter);
       res.status(200).json({success:true , message:"data deleted successfully", result});
     })
 

@@ -52,8 +52,8 @@
   color: black;
 }
 .nav-items{
-  margin-top: -44px;
-  margin-left: 340px;
+  padding-top: 20px;
+  margin-left: 290px;
 }
 .nav-items li {
   display: inline;
@@ -61,8 +61,8 @@
   font-size: 26px;
 }
 .nav-items li button{
-  margin-top: -20px;
-  margin-left: 10px;
+  margin-top: 0px;
+  margin-left: -14px;
   font-size: 16px;
   border: 0px solid red;
   background-color: rgb(201, 28, 28);
@@ -81,3 +81,30 @@
   margin-top: 80px;
   background-color: gainsboro ;
 }
+/* @media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nv1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .input-group  {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .input-group-text{
+    width: 100%;
+  }
+} */

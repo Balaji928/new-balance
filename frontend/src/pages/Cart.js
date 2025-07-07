@@ -36,11 +36,13 @@ const Cart = () => {
                       <h6 class="card-subtitle mb-2">{item.subtitle}</h6>
                       <p class="card-subtitle mb-2 ">{item.gender}</p>
                       <p className="card-text text-start">${item.price} </p>
+                     <button class="btn4 py-1 px-1">
                       <button class="btn1 py-1 px-1 update-btn" onClick={() => incrementCart(item.id, item.quantity)}> + </button>
-                       {item.quantity}
-                      <button class="btn2 py-1 px-1 update-btn" onClick={() => decrementCart(item.id, item.quantity)}>-</button>
-                      ${item.price * item.quantity}.00
-                      <button class="btn3 py-1 px-3" onClick={() => deleteCart(item)}>Remove</button>
+                        Qty {item.quantity}
+                        <button class="btn2 py-1 px-1 update-btn" onClick={() => decrementCart(item.id, item.quantity)}>-</button>
+                        ${item.price * item.quantity}.00
+                        <button class="btn3 py-1 px-3" onClick={() => deleteCart(item)}>Remove</button>
+                     </button>
                 </div>
             </div>
           </div>

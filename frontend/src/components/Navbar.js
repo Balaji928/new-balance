@@ -38,20 +38,21 @@ const Navbar = () => {
           </div> */}
 
           <div class="col-lg-6 col-sm-6">
-          <div class="input-group ">
+          {/* <div class="input-group ">
               <span class="input-group-text bg-light border-end-0">
                 <CiSearch />
               </span>
               <input type="text" class="form-control border-start-0 " placeholder="Search"/>
-          </div>
-          <div>
+          </div> */}
+          {/* <div> */}
             <ul class="nav-items">
 
-              <Link to='/upload'><li><button class="py-2 px-4 rounded-pill">UPLOAD</button></li></Link>
-              <Link to='/signup'><li><LuUserRound /></li></Link>
+              <Link to='/login'><li><button class="py-2 px-4 rounded-pill">LOGIN</button></li></Link>
+              <Link to='/uploadbags'><li><button class="py-2 px-4 rounded-pill">UPLOAD</button></li></Link>
+              <Link to='/register'><li><LuUserRound /></li></Link>
               <Link to='cart'><li><HiOutlineShoppingCart /></li></Link>
             </ul>
-            </div>
+            {/* </div> */}
           </div>
         </div>
       </section>

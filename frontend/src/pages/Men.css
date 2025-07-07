@@ -97,13 +97,15 @@
   width: 100%;
   font-size: 14px;
   font-weight: 600;
-  background-color: lightgrey;
+  background-color: white;
+  border: 1px solid black;
   color: black;
   border-radius: 0px;
 }
 .btn:hover{
   background-color: black;
   color: white;
+  border: 0px;
   transform: scale(1.0);
 }
 .btn-1 {
@@ -121,9 +123,19 @@
   color: white;
   transform: scale(1.0);
 }
+.default1{
+  /* margin-left: -150px; */
+  width: 335px;
+  height: 100%;
+}
+.hover1{
+  /* margin-left: -150px; */
+  width: 335px;
+  height: 100%;
+}
 .hover-image {
-  width: 300px;
-  height: auto;
+  width: 10%;
+  height: 10%;
 }
 
 .hover-image img {

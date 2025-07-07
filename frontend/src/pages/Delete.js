@@ -27,7 +27,7 @@ const Delete = () => {
    })
   }
   return (
-    <div>
+    <div> 
       <div className='card table2'>
         <div className='card-body'>
           <table>

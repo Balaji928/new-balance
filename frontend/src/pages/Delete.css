@@ -13,7 +13,6 @@
   font-family: 'Segoe UI', sans-serif;
   font-size: 14px;
   background-color: white;
-
 }
 .table1{
   padding-top: 15px;
@@ -27,7 +26,6 @@
   background-color: #f4eec7;
   color: #333;
   text-align: left;
-  border-radius: 12px;
 }
 
 th, td {
@@ -41,6 +39,7 @@ th, td {
 .table1 th{
   padding-left: 60px;
   text-align: start;
+  background-color: #c5b85f;
 }
 .table1 td{
   padding-top: 50px;

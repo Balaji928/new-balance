@@ -15,6 +15,7 @@ import shoe1 from '../images/shoe1.webp'
 import shoe2 from '../images/shoe2.webp'
 import shoe3 from '../images/shoe3.webp'
 import shoe4 from '../images/shoe4.webp'
+import black2 from '../images/black2.webp'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -32,19 +33,23 @@ const Home = () => {
 
       <section>
         <div class="container-fluid">
-        <div class="row season">
+        <div class="row season d-flex">
           <div class="col-lg-6">
             <h1>The Made in USA<br/> Seasonal Collection</h1>
             <p>The second drop from the Spring/Summer '25 Collection.<br/> Available April 10th</p>
-            <button>Shop Now</button>
-            <p>New Balance Made in USA footwear contains a domestic value of 70% or more.<br/> Made in USA makes up a limited portion of New Balance’s US sales</p>
+            <Link to='/hoodie'><button>Shop Now</button></Link>
+            <p class="p2">New Balance Made in USA footwear contains a domestic value of 70% or more.<br/> Made in USA makes up a limited portion of New Balance’s US sales</p>
+          </div>
+
+          <div class="col-lg-6 sea">
+            {/* <img src={at}/> */}
           </div>
         </div>
         </div>
       </section>
 
       <section>
-        <div class="row">
+        <div class="row ">
           <div class="col usa">
             <h3>The Made in USA Collection</h3>
           </div>
@@ -53,7 +58,7 @@ const Home = () => {
         <div class="row usa-1 mb-5 me-2">
           <div class="col-lg-3 col-sm-3">
             <div class="card">
-              <img src={u99} class="card-img-top" alt="..."/>
+            <Link to='/shoe'><img src={u99} class="card-img-top" alt="..."/></Link>
               <div class="card-body">
                 <h5 class="card-title">New</h5>
                 <h6 class="card-subtitle mb-2">Made in USA 990v6</h6>
@@ -65,7 +70,7 @@ const Home = () => {
 
           <div class="col-lg-3 col-sm-3">
             <div class="card">
-              <img src={u990} class="card-img-top" alt="..."/>
+            <Link to='/shoe'><img src={u990} class="card-img-top" alt="..."/></Link>
               <div class="card-body">
                 <h5 class="card-title">New</h5>
                 <h6 class="card-subtitle mb-2 ">Made in USA 990v6</h6>
@@ -77,7 +82,7 @@ const Home = () => {
 
           <div class="col-lg-3 col-sm-3">
             <div class="card">
-              <img src={white} class="card-img-top" alt="..."/>
+            <Link to='/bottom'><img src={white} class="card-img-top" alt="..."/></Link>
               <div class="card-body">
               <h5 class="card-title">New</h5>
                 <h6 class="card-subtitle mb-2 ">Made in USA Tech Pant</h6>
@@ -89,7 +94,7 @@ const Home = () => {
 
           <div class="col-lg-3 col-sm-3">
             <div class="card">
-              <img src={polo} class="card-img-top" alt="..."/>
+            <Link to='/t-shirts'><img src={polo} class="card-img-top" alt="..."/></Link>
               <div class="card-body">
                 <h5 class="card-title">New</h5>
                 <h6 class="card-subtitle mb-2 ">Made in USA Polo</h6>
@@ -104,7 +109,7 @@ const Home = () => {
           <div class="col-lg-12 col-sm-12"><Link to='/men'><button class="py-2 ">Shop The Full Collection</button></Link></div>
         </div>
 
-        <div class="row mb-5">
+        <div class="row mb-1">
           <h6>New Balance Made in USA footwear contains a domestic value of 70% or more. Made in USA makes up a limited portion of New Balance’s US sales.  </h6>
         </div>
       </section>
@@ -212,7 +217,7 @@ const Home = () => {
         <div class="row rec-1 me-2">
         <div class="col-lg-3 col-sm-3">
             <div class="card rc">
-              <img src={shoe1} class="card-img-top" alt="..."/>
+            <Link to='/shoe'><img src={shoe1} class="card-img-top" alt="..."/></Link>
               <div class="card-body">
                 <h5 class="card-title">Best seller</h5>
                 <h6 class="card-subtitle mb-2 ">530</h6>
@@ -224,7 +229,7 @@ const Home = () => {
 
           <div class="col-lg-3 col-sm-3">
             <div class="card rc">
-              <img src={shoe2} class="card-img-top" alt="..."/>
+            <Link to='/shoe'><img src={shoe2} class="card-img-top" alt="..."/></Link>
               <div class="card-body">
                 <h5 class="card-title">Best seller</h5>
                 <h6 class="card-subtitle mb-2 ">550</h6>
@@ -236,7 +241,7 @@ const Home = () => {
 
           <div class="col-lg-3 col-sm-3">
             <div class="card rc">
-              <img src={shoe3} class="card-img-top" alt="..."/>
+            <Link to='/shoe'><img src={shoe3} class="card-img-top" alt="..."/></Link>
               <div class="card-body">
                 <h5 class="card-title">Selling Fast</h5>
                 <h6 class="card-subtitle mb-2 ">480</h6>
@@ -248,7 +253,13 @@ const Home = () => {
 
           <div class="col-lg-3 col-sm-3">
             <div class="card rc">
-              <img src={shoe4} class="card-img-top" alt="..."/>
+              {/* <Link to='/shoe'><img src={shoe4} class="card-img-top" alt="..."/></Link> */}
+              <Link to='/shoe'>
+              <div class="hover-image">
+                <img class="default" src={shoe4} alt="Default Image"/>
+                <img class="hover" src={black2} alt="Hover Image"/>
+              </div>
+              </Link>
               <div class="card-body">
                 {/* <h5 class="card-title">New</h5> */}
                 <h6 class="card-subtitle mb-2 ">740</h6>

@@ -11,26 +11,38 @@ body{
 .season{
   /* margin-left: 10px; */
   display: flex;
-  background-image: url('../images/NB2967_Comp_A_Desktop.jpg');
+  background-image: url('../images/at1.jpg');
   height: 110vh;
   background-repeat: no-repeat;
-  background-size: 1500px 700px;
+  background-size: 1500px 900px;
   margin-bottom: 10px;
 }
+/* .sea img{
+  height: 110vh;
+  background-size: 680px 300px;
+} */
 .season h1{
-  margin-top: 150px;
-  margin-left: 70px;
+  margin-top: 300px;
+  margin-left: 50px;
   text-align: start;
   font-size: 65px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
 }
 .season p{
-  margin-left: 70px;
+  margin-left: 50px;
   text-align: start;
+  color: white;
+}
+.season .p2{
+  margin-left: 50px;
+  text-align: start;
+  color: white;
+  margin-top: -100px;
 }
 .season button{
   margin-bottom: 150px;
-  margin-left: -430px;
+  margin-left: -470px;
   text-align: start;
   padding-left: 40px;
   padding-right: 40px;
@@ -47,6 +59,7 @@ body{
 }
 .usa{
   margin-left: 40px;
+  margin-top: 60px;
 }
 .usa h3{
   text-align: start;
@@ -92,7 +105,7 @@ body{
 }
 .shop{
   margin-left: 40px;
-  margin-top: 140px;
+  margin-top: 100px;
 }
 .shop h3{
   text-align: start;
@@ -147,7 +160,7 @@ body{
 }
 .tab button{
   margin-bottom: 150px;
-  margin-left: -590px;
+  margin-left: -200px;
   text-align: start;
   padding-left: 40px;
   padding-right: 40px;
@@ -170,7 +183,7 @@ body{
   margin-left: 20px;
 }
 .rec{
-  margin-left: 70px;
+  margin-left: 40px;
   margin-top: 20px;
 }
 .rec h3{
@@ -181,8 +194,18 @@ body{
   border: 0px;
   margin-bottom: 100px;
 }
+.default{
+  margin-left: -150px;
+  width: 335px;
+  height: 100%;
+}
+.hover{
+  margin-left: -150px;
+  width: 335px;
+  height: 100%;
+}
 .rec-1{
-  margin-left: 50px;
+  margin-left: 30px;
   margin-top: 60px;
 }
 .btn-group{
